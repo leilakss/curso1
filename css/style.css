@@ -1,4 +1,104 @@
-p{
-    color: blueviolet;
-    font-size: 20px;
+@import url('https://fonts.googleapis.com/css2? family= Poppins:ital,wght@1.200 & display=swap');
+
+*{
+    box-sizing: border-box;
 }
+
+body{
+    margin: 0px;
+    font-family: roboto', sans-serif;
+
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background-color: cadetblue;
+    justify-content: center ;
+    align-items: center;
+}
+
+.logo{
+    flex: 30%;
+    border:1px solid white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.menu{
+    flex: 70%;
+    border:1px solid white; 
+    text-align: right;
+    padding: 20px;
+    font-size: 80px;
+}
+
+.menu a{
+    color:black;
+    border: solid 2px;
+    text-decoration: none;
+    font-size: 20px; 
+    padding-top: 20px 16px
+}
+.menu a:hover{ 
+    color: aquamarine;
+    border-top: 4px solid blue;
+}
+
+.cabecalho{
+    margin-left: 10%;
+    flex: 40%;
+    border: solid aliceblue;
+}
+
+
+.cabecalho ul li{
+    color: aqua;
+    text-align: left;
+}
+
+.caixa{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    margin-top: 80px;
+}
+.foto{
+
+margin-right: 10%;
+flex: 40%;
+border: 1px; color: black;
+text-align: center
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
