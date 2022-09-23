@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:ital,wght@1.200 & display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    background-color: beige;
+
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background-color: cadetblue;
+    justify-content: center ;
+    align-items: center;
+}
+
+.logo{
+    flex: 30%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.menu{
+    flex: 70%;
+    text-align: right;
+    padding: 20px;
+    font-size: 80px;
+}
+
+.menu a{
+    color:black;
+    border: solid 2px;
+    text-decoration: none;
+    font-size: 20px; 
+    padding-top: 20px 16px
+}
+.menu a:hover{ 
+    color: aqua;
+    border-top: 4px solid aqua;
+}
+
+.cabecalho{
+    margin-left: 10%;
+    flex: 40%;
+    border: solid aliceblue;
+}
+
+
+.cabecalho ul li{
+    color: aqua;
+    text-align: left;
+}
+
+.caixa{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    margin-top: 80px;
+    height: 400px;
+}
+.foto{
+margin-right: 10%;
+border: solid 1px; color: black;
+text-align: center;
+margin-left: 100px;
+} 
+img{ 
+
+    height:300px;
+    width: 200px;
+}
+
+
+
+.blocos{
+    display: inline-block;
+    width: 30px;
+    padding: 20px;
+    margin: 1px;
+    border-radius: 10px;
+}
+
+
+footer{
+    margin-top: 100px;
+    height: 400px;
+    background-color: cadetblue;
+    text-align: center;
+    border-top: beige;
+    height: 150px;
+}
+
+section{
+    display: inline-block;
+    margin-top: 80px; 
+    border: solid 1px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    text-align: center;
+    width: 90%;
+}
+
+section h3{
+    width: 100%;
+    font-size: 50px;
+    margin:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: cadetblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
